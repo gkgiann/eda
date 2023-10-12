@@ -14,4 +14,4 @@ Este repositório contém as atividades feitas na cadeira de Estrutura de Dados.
 
 3. Lista encadeada, pilha e fila
    - [Link para o código](https://github.com/gkgiann/eda/tree/master/src/atividade03)
-   - Esta atividade aborda os conceitos de lista encadeada, pilhas e filas. Basicamente, as pilhas são implementadas utilizando as listas encadeadas e as filas usam essas pilhas para a implementação. Além disso, foram criados alguns testes de unidade para as estruturas usandoa lib junit. 
+   - Esta atividade aborda os conceitos de lista encadeada, pilhas e filas. Basicamente, as pilhas são implementadas utilizando as listas encadeadas e as filas usam essas pilhas para a implementação. Além disso, foram criados alguns testes de unidade para as estruturas usando a lib junit. 
