@@ -26,9 +26,9 @@ public class Test0_Fila {
 		f.enqueue(2);
 		f.enqueue(3);
 
-		assertEquals(1, f.dequeue());
-		assertEquals(2, f.dequeue());
-		assertEquals(3, f.dequeue());
+		assertTrue(f.dequeue().equals(1));
+		assertTrue(f.dequeue().equals(2));
+		assertTrue(f.dequeue().equals(3));
 
 		assertTrue(f.isEmpty());
 	}
@@ -38,16 +38,16 @@ public class Test0_Fila {
 		f.enqueue(1);
 		f.enqueue(2);
 		f.enqueue(7);
-		assertEquals(1, f.head());
+		assertTrue(f.head().equals(1));
 		f.dequeue();
-		assertEquals(2, f.head());
+		assertTrue(f.head().equals(2));
 
 		f.enqueue(90);
-		assertEquals(2, f.head());
+		assertTrue(f.head().equals(2));
 
 		f.dequeue();
 		f.dequeue();
-		assertEquals(90, f.head());
+		assertTrue(f.head().equals(90));
 
 	}
 

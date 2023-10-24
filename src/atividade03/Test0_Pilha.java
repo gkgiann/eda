@@ -3,7 +3,6 @@ package atividade03;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
@@ -41,9 +40,9 @@ public class Test0_Pilha {
 		p.push(2);
 		p.push(3);
 
-		assertEquals(3, p.pop());
-		assertEquals(2, p.pop());
-		assertEquals(1, p.pop());
+		assertTrue(p.pop().equals(3));
+		assertTrue(p.pop().equals(2));
+		assertTrue(p.pop().equals(1));
 
 		assertTrue(p.isEmpty());
 	}
@@ -55,9 +54,9 @@ public class Test0_Pilha {
 		p.push(3);
 		p.push(4);
 
-		assertEquals(4, p.top());
+		assertTrue(p.top().equals(4));
 		p.pop();
-		assertEquals(3, p.top());
+		assertTrue(p.top().equals(3));
 	}
 
 	@Test(expected = Exception.class)

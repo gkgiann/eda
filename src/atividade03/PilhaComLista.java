@@ -14,7 +14,7 @@ public class PilhaComLista implements Pilha_IF {
     }
 
     @Override
-    public int pop() throws Exception {
+    public Integer pop() throws Exception {
         if (this.stack.isEmpty()) {
             throw new Exception("A pilha está vazia");
         }
@@ -26,7 +26,7 @@ public class PilhaComLista implements Pilha_IF {
     }
 
     @Override
-    public int top() throws Exception {
+    public Integer top() throws Exception {
         if (this.stack.isEmpty()) {
             throw new Exception("A pilha está vazia");
         }

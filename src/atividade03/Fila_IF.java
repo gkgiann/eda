@@ -1,19 +1,14 @@
 package atividade03;
 
 /*
- * Interface para implementaï¿½ï¿½o da classe "FilaComPilhas", a qual deve
- * ser implementada usando duas instï¿½ncias da classe "PilhaComLista".
- * OBS.: o mï¿½todo dequeue deve ter custo O(1).
+ * Interface para implementação da classe "FilaComPilhas", a qual deve
+ * ser implementada usando duas instâncias da classe "PilhaComLista".
+ * OBS.: o método dequeue deve ter custo O(1).
  */
-
 public interface Fila_IF {
 	public void enqueue(Integer element) throws Exception;
-
-	public int dequeue() throws Exception;
-
-	public int head() throws Exception;
-
+	public Integer dequeue() throws Exception;
+	public Integer head() throws Exception;
 	public boolean isEmpty();
-
 	public boolean isFull();
 }

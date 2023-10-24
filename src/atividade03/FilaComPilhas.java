@@ -22,7 +22,7 @@ public class FilaComPilhas implements Fila_IF {
     }
 
     @Override
-    public int dequeue() throws Exception {
+    public Integer dequeue() throws Exception {
         if (this.stack01.isEmpty())
             throw new Exception("Fila vazia!");
 
@@ -30,7 +30,7 @@ public class FilaComPilhas implements Fila_IF {
     }
 
     @Override
-    public int head() throws Exception {
+    public Integer head() throws Exception {
         if (this.isEmpty())
             throw new Exception("Fila vazia!");
 
