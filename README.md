@@ -15,3 +15,7 @@ Este repositório contém as atividades feitas na cadeira de Estrutura de Dados.
 3. Lista encadeada, pilha e fila
    - [Link para o código](https://github.com/gkgiann/eda/tree/master/src/atividade03)
    - Esta atividade aborda os conceitos de lista encadeada, pilhas e filas. Basicamente, as pilhas são implementadas utilizando as listas encadeadas e as filas usam essas pilhas para a implementação. Além disso, foram criados alguns testes de unidade para as estruturas usando a lib junit. 
+
+3. Árvore binária de busca (BST), e Tabela Hash
+   - [Link para o código](https://github.com/gkgiann/eda/tree/master/src/atividade04)
+   - Esta atividade aborda os conceitos de árvore binária de busca e tabela hash. Para a tabela hash, é de endereçamento fechado, implementada utilizando as listas encadeadas da ativiadde 03. Além disso, foram criados alguns testes de unidade para as estruturas usando a lib junit e um mini projeto usando tabela hash para organizar jogos. 
